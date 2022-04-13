@@ -54,11 +54,12 @@ console.log(`
 const star = '*'
 const scopo = 'GOAL'
 
-export const output = `
+export const output1 = `
             ${star}
-            ${star} ${scopo}
+              ${star} ${scopo}
             ${star}
-            ${elemento.anagrafica} - ${elemento.url}`;
+            ${star} ${elemento.anagrafica} - ${elemento.url}`;
 
-console.log(output);
-document.querySelector('#output').innerHTML = output;
+console.log(output1);
+
+document.querySelector('#output').innerHTML = output1;
